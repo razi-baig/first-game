@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="razi.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="webloop">
+        <a id="webloop"></a>
+      </div>
+      <div class="header">
+        <h1 id="one-r">
+          Rock
+          <i class="fas fa-hand-rock fa-1x"></i>
+        </h1>
+        <h1 id="two-p">Paper <i class="fas fa-hand-paper fa-1x"></i></h1>
+        <h1 id="three-s">Scissor <i class="fas fa-hand-scissors fa-1x"></i></h1>
+        <h1 id="four-b">Bomb <i class="fas fa-bomb fa-1x"></i></h1>
+        <span id="game">GAME <i class="fas fa-gamepad"></i></span>
+      </div>
+
+      <div class="option">
+        <h1><---SELECT OPTION---></h1>
+        <h3>Rock</h3>
+        <img
+          id="img1"
+          onclick="checker('rock')"
+          src="./images/Daco_1635719.png"
+        />
+        <br />
+        <h3>Paper</h3>
+        <img id="img2" onclick="checker('paper')" src="./images/paper.jpg" />
+        <br />
+        <h3>Scissor</h3>
+        <img
+          id="img3"
+          onclick="checker('scissor')"
+          src="./images/scissor.png"
+        />
+        <h3>Bomb</h3>
+        <img
+          id="img3"
+          onclick="checker('bomb')"
+          src="./images/pngfind.com-atomic-bomb-png-1325067.png"
+        />
+      </div>
+
+      <div class="output">
+        <h2>OUTPUT:</h2>
+        <p1 id="user_choice"></p1> <br />
+        <p2 id="comp_choice"></p2> <br />
+        <p3 id="result"></p3>
+      </div>
+    </div>
+    <script src="./razi.js"></script>
+  </body>
+</html>

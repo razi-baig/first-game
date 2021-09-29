@@ -1,0 +1,213 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/back.jpg);
+  position: relative;
+  background-size: cover;
+}
+.webloop {
+  opacity: 90%;
+  width: 135px;
+  height: 58px;
+  background-image: url(./images/webloop.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 2.5rem;
+}
+
+.webloop:hover {
+  background-image: url(./images/webloop-white.PNG);
+}
+.container p {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 40px;
+  padding-left: 43rem;
+  color: white;
+}
+.container p:hover {
+  color: rgb(21, 8, 139);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#one-r {
+  color: white;
+  padding-right: 2rem;
+  font-size: 40px;
+  font-family: "Style Script", cursive;
+}
+#one-r:hover {
+  color: tomato;
+}
+.fas:hover {
+  color: rgb(0, 0, 0);
+}
+#two-p {
+  color: white;
+  font-family: "Ruge Boogie", cursive;
+  font-size: 40px;
+  padding-right: 2rem;
+}
+#two-p:hover {
+  color: rgb(199, 146, 0);
+}
+#three-s {
+  color: white;
+  font-size: 40px;
+  padding-right: 2rem;
+  font-family: "Bilbo", cursive;
+}
+#three-s:hover {
+  color: rgb(28, 191, 212);
+}
+#four-b {
+  color: white;
+  font-size: 40px;
+  padding-right: 2rem;
+  font-family: "Bilbo", cursive;
+}
+#four-b:hover {
+  color: rgb(73, 245, 0);
+}
+#game {
+  color: rgb(0, 0, 0);
+
+  font-family: cursive;
+}
+#game:hover {
+  font-size: 30px;
+  color: yellow;
+}
+#select {
+  text-align: center;
+  font-family: "Grechen Fuemen", cursive;
+  width: 10rem;
+  height: 5vh;
+  margin-left: 45rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+#select:hover {
+  color: white;
+  background: rgb(0, 0, 0);
+}
+.output {
+  text-align: center;
+  width: 20%;
+  height: 20vh;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3rem;
+  margin-left: 58rem;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  padding-top: 1rem;
+  border: 2px solid white;
+}
+.output h2 {
+  color: white;
+  font-family: "Explora", cursive;
+}
+.output p1 {
+  font-family: "Explora", cursive;
+  color: aqua;
+}
+.output p2 {
+  font-family: "Explora", cursive;
+  color: rgb(123, 255, 0);
+}
+.output p3 {
+  font-family: "Explora", cursive;
+  color: rgb(255, 0, 0);
+}
+.option {
+  text-align: center;
+}
+.option img {
+  width: 20px;
+}
+.option h3 {
+  font-size: 20px;
+}
+.option h3:hover {
+  color: white;
+  font-size: 20px;
+}
+.option h1 {
+  color: white;
+}
+.option h1:hover {
+  color: rgb(0, 0, 0);
+}
+#img1 {
+  border-radius: 1rem;
+  border: 1px solid white;
+  width: 90px;
+  height: 8vh;
+}
+
+#img1:hover {
+  width: 80px;
+}
+#img2 {
+  border: 1px solid rgb(0, 0, 0);
+  height: 5vh;
+  width: 90px;
+}
+#img2:hover {
+  width: 80px;
+}
+#img3 {
+  height: 40px;
+  border-radius: 1rem;
+  border: 1px solid white;
+  width: 90px;
+  height: 8vh;
+}
+#img3:hover {
+  width: 80px;
+}
+@media (max-width: 300px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./images/back.jpg);
+  }
+}
+@media (max-width: 380px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 900px) {
+  .output {
+    margin-left: 7rem;
+    width: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .option h1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 900px) {
+  .webloop {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
